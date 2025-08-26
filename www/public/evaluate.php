@@ -6,11 +6,11 @@
 <h2>Resultat</h2>
 <?php
         $name = $_POST['q0'];
-     	$ans1 = $_POST['q1'];
-     	$ans2 = $_POST['q2'];
+     	  $ans1 = $_POST['q1'];
+     	  $ans2 = $_POST['q2'];
         $ans3 = $_POST['q3'];
         $ans4 = $_POST['q4'];
-     	$points = 0;
+     	  $points = 0;
      	
         
      	if($ans1 == 9)
