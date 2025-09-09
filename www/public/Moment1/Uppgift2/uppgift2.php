@@ -8,7 +8,7 @@
 <body>
     <form action="calculateAge.php" method="post">
         <label for="">Name: </label>
-        <input type="text" name="name"> <br>
+        <input type="text" name="fullName"> <br>
         <label for="">Age: </label>
         <input type="text" name="age">
         <input type="submit" value="Räkna ut">

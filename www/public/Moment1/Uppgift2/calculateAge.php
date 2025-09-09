@@ -7,8 +7,8 @@
 <body>
 <h1>Ålder kvar till pension: </h1>
 <?php
-    $name = $_POST['name'];
-    $age = $_POST["age"];
+    $name = $_GET['fullName'];
+    $age = $_GET["age"];
     
     $yearsLeft = 65 - $age;
     echo"{$name} har {$yearsLeft} år kvar till pension";
