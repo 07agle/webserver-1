@@ -1,10 +1,3 @@
-<?php
-if (!isset($_GET["name"])) {
-    header("location ../uppgift8");
-    exit;
-}
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
