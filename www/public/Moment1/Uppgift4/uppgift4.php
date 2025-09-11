@@ -9,3 +9,6 @@
     <a href="printNameAge.php?name=Leon&year=2007">Klicka</a>
 </body>
 </html>
+<?php
+
+?>

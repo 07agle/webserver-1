@@ -7,8 +7,6 @@ if (!isset($_POST["user"])) {
 //include(__DIR__ . "/../../inc/users.php");
 include(__DIR__ . "/../../inc/user.php");
 
-
-
 $person = new User("07agle", "12345", "Leon");
 $person2 = new User("07bafr", "password", "Ferit");
 
